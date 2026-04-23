@@ -1,0 +1,20 @@
+name: EcoNETPay
+version: '1.0'
+main: net.github.monkeee.ecoNETPay.EcoNETPay
+api-version: '1.21'
+prefix: ENP
+authors: [_Monkeee]
+depend:
+  - Vault
+commands:
+  pay:
+    description: Pay a specific player a specified amount of money
+  payall:
+    description: Pay a specific player all of your money
+permissions:
+  econet.pay:
+    description: Basic permission for /pay command
+    default: true
+  econet.payall:
+    description: Basic permission for /payall command
+    default: true
